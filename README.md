@@ -1,7 +1,4 @@
-# AI Agents on Azure AI Foundry — Workshop
-
-A hands-on Python workshop for SWEs covering how to build, deploy, and run AI agents using **Azure AI Foundry** and the `azure-ai-agents` SDK.
-
+# AI Agents on Azure AI Foundry
 ---
 
 ## Prerequisites
@@ -77,16 +74,6 @@ python chapter_3_run_agent.py
 - Returns and prints the assistant's structured analysis.
 
 > **Key concept:** Agent (persistent brain) ≠ Thread (ephemeral conversation).
-
----
-
-### Full end-to-end demo
-
-```bash
-python main.py
-```
-
-Runs all three chapters in sequence.  If `AGENT_ID` is already in `.env`, it skips Chapter 1.
 
 ---
 
