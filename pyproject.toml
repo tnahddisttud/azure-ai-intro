@@ -1,0 +1,14 @@
+[project]
+name = "azure-ai-intro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-ai-agents>=1.1.0",
+    "azure-ai-projects>=2.0.1",
+    "azure-identity>=1.25.3",
+    "google-search-results>=2.4.2",
+    "langchain-community>=0.4.1",
+    "yfinance>=1.2.0",
+]
